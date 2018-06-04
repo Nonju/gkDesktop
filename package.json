@@ -1,0 +1,18 @@
+{
+  "name": "gkdesktop",
+  "version": "1.0.0",
+  "description": "Electron app to replace google keep chrome app when its remif its removed",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ \"Google keep desktop app\" --platform=win32 --arch=ia32 --icon=\"./Google-keep.ico\" --overwrite"
+  },
+  "author": "Nonju",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  },
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}
